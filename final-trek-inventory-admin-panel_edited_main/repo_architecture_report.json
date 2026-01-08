@@ -1,0 +1,149 @@
+{
+  "repo": {
+    "root": "C:\\Aoerbo Trek\\ADMIN_PANEL_2\\final-trek-inventory-admin-panel_edited_main",
+    "type": "backend-only"
+  },
+  "entries": {},
+  "layers": {
+    "other": [
+      "App.tsx",
+      "Architectural_report.py",
+      "constants.new.ts",
+      "constants.ts",
+      "frontend_analyze.py",
+      "index.tsx",
+      "types.ts",
+      "components\\BookingsPage.tsx",
+      "components\\FilterBar.tsx",
+      "components\\TBRCard.tsx",
+      "components\\TimelineNav.tsx",
+      "components\\TrekDetailsPage.tsx",
+      "components\\AuditLog\\AuditLog.tsx",
+      "components\\Requests\\DecisionHistory.tsx",
+      "components\\Requests\\PendingRequests.tsx",
+      "components\\Requests\\Requests.tsx",
+      "services\\inventoryService.ts"
+    ],
+    "config": [
+      "vite.config.ts"
+    ]
+  },
+  "imports": {
+    "App.tsx": [
+      "react",
+      "./constants",
+      "./components/FilterBar",
+      "./components/TBRCard",
+      "./components/TimelineNav",
+      "./components/TrekDetailsPage",
+      "./components/BookingsPage",
+      "./components/Requests/Requests",
+      "./components/AuditLog/AuditLog",
+      "'react';",
+      "'./types';",
+      "'./services/inventoryService';",
+      "'./constants';",
+      "'./components/FilterBar';",
+      "'./components/TBRCard';",
+      "'./components/TimelineNav';",
+      "'./components/TrekDetailsPage';",
+      "'./components/Requests/Requests';"
+    ],
+    "Architectural_report.py": [
+      "collections"
+    ],
+    "constants.ts": [
+      "./types"
+    ],
+    "frontend_analyze.py": [
+      "collections"
+    ],
+    "index.tsx": [
+      "react",
+      "react-dom/client",
+      "./App",
+      "'react';",
+      "'react-dom/client';"
+    ],
+    "vite.config.ts": [
+      "path",
+      "vite",
+      "@vitejs/plugin-react",
+      "'path';",
+      "'vite';"
+    ],
+    "components\\BookingsPage.tsx": [
+      "react",
+      "../types",
+      "'react';"
+    ],
+    "components\\FilterBar.tsx": [
+      "react",
+      "../constants",
+      "'react';",
+      "'../types';"
+    ],
+    "components\\TBRCard.tsx": [
+      "react",
+      "../types",
+      "../services/inventoryService",
+      "'react';",
+      "'../types';"
+    ],
+    "components\\TimelineNav.tsx": [
+      "react"
+    ],
+    "components\\TrekDetailsPage.tsx": [
+      "react",
+      "../types",
+      "../constants",
+      "../services/inventoryService",
+      "'react';",
+      "'../types';",
+      "'../constants';"
+    ],
+    "components\\AuditLog\\AuditLog.tsx": [
+      "react",
+      "../../types",
+      "../../constants.new",
+      "'react';",
+      "'../../types';"
+    ],
+    "components\\Requests\\DecisionHistory.tsx": [
+      "react",
+      "../../types",
+      "'react';"
+    ],
+    "components\\Requests\\PendingRequests.tsx": [
+      "../../types",
+      "react",
+      "'../../types';"
+    ],
+    "components\\Requests\\Requests.tsx": [
+      "react",
+      "../../types",
+      "./PendingRequests",
+      "./DecisionHistory",
+      "../../constants.new",
+      "'react';",
+      "'../../types';",
+      "'./PendingRequests';",
+      "'./DecisionHistory';"
+    ],
+    "services\\inventoryService.ts": [
+      "../types",
+      "../constants",
+      "'../types';"
+    ]
+  },
+  "env": {
+    "config": [
+      "API_KEY",
+      "GEMINI_API_KEY"
+    ]
+  },
+  "routes": {
+    "backend": [],
+    "frontend_calls": []
+  }
+}

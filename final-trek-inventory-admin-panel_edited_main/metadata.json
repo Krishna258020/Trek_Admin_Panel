@@ -1,0 +1,5 @@
+{
+  "name": "final trek inventory admin panel",
+  "description": "A high-fidelity administrative dashboard for managing Trek Booking Records (TBR) with advanced filtering, timeline-based navigation, and governance rules.",
+  "requestFramePermissions": []
+}
